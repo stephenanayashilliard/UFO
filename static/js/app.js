@@ -51,17 +51,17 @@ function updateFilters() {
       delete filters[filters];
     } 
 
-    for(let ufo in filters) {
-      console.log(filters)
-      console.log(filters[ufo])
-      console.log(ufo)
+   // for(let ufo in filters) {
+  //   console.log(filters)
+   //   console.log(filters[ufo])
+   //   console.log(ufo)
     }
  
   
     // 6. Call function to apply all filters and rebuild the table
     filterTable();
   
-  }
+  
   
   // 7. Use this function to filter the table when data is entered.
   function filterTable() {
@@ -71,10 +71,13 @@ function updateFilters() {
   
     // 9. Loop through all of the filters and keep any data that
     // matches the filter values
-     for(let ufo in filters) {
-       filterData = filteredData.filter(row => row[ufo]=== filters[ufo]);
-       console.log(ufo)
-     }
+    filterData = filterData.filter(function(ufo) {
+      for (var key in filters) {
+        if (filters[key] === undefined || ufo[key] != filters[key])
+          return false;
+      }
+      return true;
+    })
     
   
     // 10. Finally, rebuild the table using the filtered data
