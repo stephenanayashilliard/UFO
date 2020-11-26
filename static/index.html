@@ -1,4 +1,4 @@
-<!-- UFO Sightings - index webPage -->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,12 +23,12 @@
             <a class="navbar-brand" href="index.html">UFO Sightings</a>
         </nav>
     
-        <!-- Article title and paragraph -->
+        <!-- title using jumbotron -->
         <div class="jumbotron">
         <h1 class="display-4">The Truth Is Out There</h1>
         </div>
 
-        <!-- make a table that contains two rows --> 
+        
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
@@ -42,37 +42,37 @@
             </div>
         </div>
 
-        <!-- make a second table that will contain filter button and sorting results -->
+        
 
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3">
                     <div class="filter">
-                    <!-- add a form tag -->
+                    <!-- form tag -->
                         <form class="bg-dark">
                         <p>Filter Search</p>
                             <ul class="list-group bg-dark">
-                                <!-- create a set of list tags, date -->
+                                <!-- list tags for date -->
                                 <li class="list-group-item bg-dark">
                                     <label for="date">Enter a Date</label>
                                     <input type="text" placeholder="1/10/2010" id="datetime" class="form-control" /> 
                                 </li>
-                                <!-- create a set of list tags, city -->
+                                <!-- list tags for city -->
                                 <li class="list-group-item bg-dark">
                                     <label for="city">Enter a City</label>
                                     <input type="text" placeholder="roswell" id="city" class="form-control" /> 
                                 </li> 
-                                <!-- create a set of list tags, state -->
+                                <!-- list tags for state -->
                                 <li class="list-group-item bg-dark">
                                     <label for="state">Enter a State</label>
                                     <input type="text" placeholder="ca" id="state" class="form-control" /> 
                                 </li>
-                                <!-- create a set of list tags, country -->
+                                <!-- list tags for country -->
                                 <li class="list-group-item bg-dark">
                                     <label for="country">Enter a Country</label>
                                     <input type="text" placeholder="us" id="country" class="form-control" /> 
                                 </li>  
-                                <!-- create a set of list tags, nested within an unordered list tag -->
+                                <!-- list tags for shape -->
                                 <li class="list-group-item bg-dark">
                                     <label for="shape">Enter Shape</label>
                                     <input type="text" placeholder="circle" id="shape" class="form-control" /> 
@@ -99,11 +99,11 @@
                 </div>
             </div>
         </div>
-        <!-- A link to a D3.js CDN -->
+        <!--  D3.js -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-        <!-- The file path to data.js  -->
+        <!--  file path to data.js  -->
         <script src="../static/js/data.js"></script>
-        <!-- The file path to app.js -->
+        <!-- file path to app.js -->
         <script src="../static/js/app.js"></script>
     </div>
 </body>

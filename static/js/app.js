@@ -41,8 +41,9 @@ function updateFilters() {
     i
     
     // 4c. Save the id of the filter that was changed as a variable.
-    ///let filterId = changedElement.attr("id");
-    ///console.log(filterID);
+    let filterId = changedElement.attr("id");
+    console.log(filterID);
+    
     filterTable(filters);
 
     // 5. If a filter value was entered then add that filterId and value
