@@ -25,5 +25,9 @@ The final product was a simple, easy to use website.  The website before any inp
 
 
 ## Summary
-    
-### Business Reommendations
+### Drawback
+Although the website is very easy to use, it isn't very exciting and is limited in it's research capabilities.  In addition, before there is any input on the part of the user, all of the entire library of data downloads to the page.  
+### Recommendations to the website:
+- A button allowing the user to clear all input before doing further searches.
+- Attaching any photographs or illustrations of any of the ufo sightings if they are available.
+
