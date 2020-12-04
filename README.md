@@ -15,7 +15,7 @@ The purpose of this project was to create a website using Javascript and interac
  - HTML
 
 ## Results
-The final product was a simple, easy to use website.  The website before any input on the part of the user is pictured in illustration #1. To utilize the website to search for UFO sightings, is extremely simple.  The user need only type their input in any of the filters and any ufo sightings that fit the input criteria will be outputted.   In illustration #2 the input for state was changed to fl.
+The final product was a simple, easy to use website.  The website before any input on the part of the user is shown in illustration #1. To utilize the website to search for UFO sightings, is extremely simple.  The user need only type their input in any of the filters and any ufo sightings that fit the input criteria will be outputted.   In illustration #2 the input for state was changed to fl.
 
 #### Illustration #1
 ![before_date](https://github.com/stephenanayashilliard/UFO/blob/main/Resources/before_input.png)
@@ -30,4 +30,5 @@ Although the website is very easy to use, it isn't very exciting and is limited 
 ### Recommendations to the website:
 - A button allowing the user to clear all input before doing further searches.
 - Attaching any photographs or illustrations of any of the ufo sightings if they are available.
+- The website needs to alert the user that there is no data fitting a user's input.   Currently if there is no data matching the filters then the output remains empty.
 
