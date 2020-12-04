@@ -17,7 +17,8 @@ The purpose of this project was to create a website using Javascript and interac
 ## Results
 The final product was a simple, easy to use website.  The website before any input on the part of the user is pictured in illustration #1.
 
-![before_date](
+![before_date](https://github.com/stephenanayashilliard/UFO/blob/main/Resources/before_input.png)
+
 
 ## Summary
     
